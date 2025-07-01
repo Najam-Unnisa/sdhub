@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .box {
+            margin-top: 100px;
+            margin-left: 200px;
+            padding: 100px;
+            align-items: normal;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 40 50px;
+            width: 1300px;
+           
+            background-color: rgb(252, 252, 252)
+        }
+
+        .box1 {
+
+
+          box-sizing: content-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .box2 {
+            box-sizing: content-box;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .box3 {
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 38px;
+          margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        h1,h2,h3{
+            font-family: "Poppins", sans-serif;
+    color: rgb(51,51,51);
+    font-weight: normal;
+        }
+
+    .p1,.p2{
+        font-family: "Red Hat Display", sans-serif;
+        color: rgb(119, 119, 119);
+
+        }
+        .p1{
+            font-size: 20px;
+        }
+        .p2{
+            font-size: 15px;
+        }
+
+        .box4 {}
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"> <!--div1-->
+            <h3 style="color:blue">WHAT WE DO</h3>
+            <h1>Training Solutions Tailored to Industry</h1>
+            <p class="p1">If you are confused about career choices, our career guidance counselor will make it easy for you to
+                understand and take informed decisions. <br> <br>
+            Our courses are designed to be comprehensive, practical, and hands-on, ensuring that our participants
+                graduate with the skills and confidence to excel in their chosen field.</p>
+        </div>
+
+        <div class="box2"> <!--div2-->
+            <div class="box3">
+                <div class="box4">
+                    <img src="pic 1.png" alt="pic1" height="50px" width="50px" style="margin-top: 10px;">
+                    <h2>Job Oriented Training</h2>
+                    <p class="p2">Elevate your career prospects with our comprehensive, industry-focused training programs at SD
+                        HUB, designed to equip you with the skills demanded by employers.
+
+                    </p>
+
+                </div>
+                <div class="box4">
+                    <img src="piic 2.png" alt="pic2" height="50px" width="50px" style="margin-top: 10px;">
+                    <h2>Interview Clinics</h2>
+                    <p class="p2">Sharpen your interview skills and boost your confidence with our specialized interview clinics,
+                        preparing you to ace your next job interview with ease.</p>
+                </div>
+            </div><!--div 2.1-->
+            <div class="box3">
+                <div class="box4">
+                    <img src="pic 3.png" alt="pic3" height="50px" width="50px" style="margin-top: 10px;">
+                    <h2>Career Counselling</h2>
+                    <p class="p2">Navigate your career path confidently with personalized guidance from our experienced career
+                        counselors, ensuring informed decisions and successful outcomes.</p>
+                </div>
+                <div class="box4">
+                    <img src="pic 4.png" alt="pic4" height="50px" width="50px" style="margin-top: 10px;">
+                    <h2>Soft skills training</h2>
+                    <p class="p2">Develop essential soft skills vital for professional success, such as communication, teamwork,
+                        and leadership, through our tailored training modules at SD HUB.</p>
+                </div>
+            </div><!--div 2.2-->
+        </div> <!--div 2-->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .sky {
+
+        height: 500px;
+        width: 100%;
+        background-color: skyblue;
+
+    }
+
+    .road {
+        height: 200px;
+        width: 100%;
+        background-color: grey;
+
+
+    }
+
+    .grass {
+        height: 300px;
+        width: 100%;
+        background-color: green;
+
+    }
+
+    .Sun {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        align-items: center;
+        border-radius: 50%;
+        background-color: orange;
+        animation: Spin 4s linear infinite;
+    }
+
+
+    .Car {
+        animation-name: Car;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes Spin {
+
+        100% {
+            transform: rotate(360deg);
+
+        }
+    }
+
+    @keyframes Car {
+        0% {
+            transform: translate(0, 0);
+
+        }
+
+        50% {
+            transform: translate(1500px);
+
+        }
+
+        51% {
+            transform: scaleX(-1);
+            transform: translate(1600px);
+        }
+
+        100% {}
+
+    }
+</style>
+
+<body>
+    <div class="sky">
+        <div class="Sun">
+
+        </div>
+        <!--<img class="Sun" src="Sun.png" alt="sun" height="200px" width="100px" style="margin: 20px;">-->
+    </div>
+    <div class="road">
+        <img class="Car" src="Car.png" alt="car" height="100px" width="100px">
+    </div>
+    <div class="grass"></div>
+
+</body>
+
+</html>

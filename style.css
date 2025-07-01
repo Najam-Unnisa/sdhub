@@ -1,0 +1,55 @@
+:root{
+    --base-color: purple;
+}
+
+
+
+h1{
+    color:var(--base-color);
+}
+p{
+    color:var(--base-color);
+    font-size: 2em;
+}
+.p2{
+ color:var(--base-color);
+ font-weight: normal;
+ font-size: 40px;
+ font-style: italic;
+ 
+}
+
+#H{
+    color: var(--base-color);
+    font-size: 50PX;
+}
+*{
+    font-family: 'Times New Roman', Times, serif ;
+    margin:0px;
+    padding:0px;
+    font-size: x-large;
+    color: var(--base-color);
+}
+li:first-child{
+    color: violet;
+
+}
+li:last-child{
+    color:aqua;
+}
+li:nth-child(even){
+    color: black;
+}
+p:active{
+    color: aqua;
+}
+p:hover{
+    color: red;
+}
+a:hover{
+    color:maroon;
+    text-decoration-line:  none ;
+}
+a:active{
+    color:brown
+}

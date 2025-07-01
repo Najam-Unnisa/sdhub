@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-element</title>
+    <style>
+        .container {
+            height: 550px;
+            width: 380px;
+
+            border: 1px solid black;
+            box-sizing: content-box;
+            border-radius: 20px;
+            box-shadow: 10px;
+            background-color: black;
+
+            box-shadow: 10px 5px 5px black;
+        }
+
+        .container:hover {
+
+            scale: 1.1;
+        }
+
+        body {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(212, 161, 241);
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+            justify-content: space-between;
+            border-radius: 20px;
+            z-index: 2;
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+
+
+
+        .p1 {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .button {
+            background-color: #7a59a9;
+            width: 180px;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .Nike {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: x-large
+        }
+
+        .p {
+            color: rgb(153, 142, 142);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: medium;
+        }
+
+        .P1 {
+            display: flex;
+
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .img{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" >
+
+        <img src="shoe.jpg" alt="shoe" height="280px" width="380px" style="border-top-left-radius:20px; border-top-right-radius:20px" >
+        <div class="box">
+            <div class="P1">
+                <div class="Nike">
+                    <p><b>Nike Running Shoe</b></p>
+                </div>
+
+                <div>
+                    <button>EU38</button>
+                    <button>Black/White</button>
+                </div>
+            </div>
+
+
+            <div class="p">
+
+                <p>Crossing hardwood comfort with off-court flair. '80s-inspired construction, bold details and
+                    nothin'-but-net style.</p>
+            </div>
+
+            <div class="p1">
+                <p>PRICE <br> <b>$69.99</b></p>
+                <button class="button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
